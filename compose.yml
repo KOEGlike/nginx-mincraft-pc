@@ -1,0 +1,6 @@
+services:
+  nginx:
+    build: .
+    ports:
+      - 25565:25565
+    network_mode: "host"
